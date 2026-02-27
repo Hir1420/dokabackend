@@ -15,7 +15,7 @@ const app = express();
 const PORT = Number(process.env.PORT) || 3001;
 
 app.use(cors({
-  origin: ['http://localhost:5173', 'http://localhost:5174', 'http://127.0.0.1:5173', 'http://127.0.0.1:5174'],
+  origin: ['http://localhost:5173', 'http://localhost:5174', 'http://127.0.0.1:5173', 'http://127.0.0.1:5174','https://glowing-sundae-b11359.netlify.app'],
   credentials: true,
 }));
 
